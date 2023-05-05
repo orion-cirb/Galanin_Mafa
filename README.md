@@ -2,7 +2,7 @@
 
 * **Developed for:** Laure
 * **Team:** Rouach
-* **Date:** Avril 2023
+* **Date:** May 2023
 * **Software:** Fiji
 
 ### Images description
@@ -28,5 +28,5 @@
 
 ### Version history
 
-Version 1 released on Avril 28, 2023.
+Version 1 released on May 5, 2023.
 
