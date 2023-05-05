@@ -17,8 +17,8 @@
 
 * Detect Galanin and MafA cells with Cellpose
 * Colocalize Galanin cells with MafA cells and MafA cells with Galanin cells
-* Find background for both channels
-* For each cell, compute the volume and the intensity/background-corrected intensity in each channel in which it appears
+* Compute background noise for each channel
+* For each cell, compute its volume and intensity/background-corrected intensity in each channel in which it appears
 
 ### Dependencies
 
