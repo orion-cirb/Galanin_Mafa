@@ -23,11 +23,7 @@ import loci.formats.services.OMEXMLService;
 import loci.plugins.BF;
 import loci.plugins.util.ImageProcessorReader;
 import loci.plugins.in.ImporterOptions;
-import mcib3d.geom2.Object3DInt;
 import mcib3d.geom2.Objects3DIntPopulation;
-import mcib3d.geom2.measurements.MeasureIntensity;
-import mcib3d.geom2.measurements.MeasureVolume;
-import mcib3d.image3d.ImageHandler;
 import org.apache.commons.io.FilenameUtils;
 import org.scijava.util.ArrayUtils;
 
@@ -91,7 +87,7 @@ public class Galanin_Mafa implements PlugIn {
             }
             
             // Create output folder
-            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
             Date date = new Date();
             outDirResults = imageDir + File.separator+ "Results_" + dateFormat.format(date) +  File.separator;
             File outDir = new File(outDirResults);
